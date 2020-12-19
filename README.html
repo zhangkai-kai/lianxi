@@ -1,2 +1,30 @@
 # lianxi
 练习
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            margin: 20px auto;
+            border: 1px solid skyblue;
+        }
+        .c:hover+.b{
+            background-color: blue;
+        }
+        .b:hover~.d{
+            background: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="a">a</div>
+    <div class="b">b</div>
+    <div class="c">c</div>
+    <div class="d">d</div>
+</body>
+</html>
